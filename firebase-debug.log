@@ -1,0 +1,91 @@
+[debug] [2023-10-26T08:41:10.538Z] ----------------------------------------------------------------------
+[debug] [2023-10-26T08:41:10.546Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-26T08:41:10.547Z] CLI Version:   12.7.0
+[debug] [2023-10-26T08:41:10.548Z] Platform:      win32
+[debug] [2023-10-26T08:41:10.549Z] Node Version:  v20.8.0
+[debug] [2023-10-26T08:41:10.549Z] Time:          Thu Oct 26 2023 15:41:10 GMT+0700 (Indochina Time)
+[debug] [2023-10-26T08:41:10.549Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-26T08:41:10.566Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-26T08:41:10.567Z] > authorizing via signed-in user (tuandao220@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Angular-Udemy\crud-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-26T08:42:19.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-10-26T08:42:25.879Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-10-26T08:42:25.879Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-10-26T08:43:21.202Z] ----------------------------------------------------------------------
+[debug] [2023-10-26T08:43:21.210Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-26T08:43:21.211Z] CLI Version:   12.7.0
+[debug] [2023-10-26T08:43:21.211Z] Platform:      win32
+[debug] [2023-10-26T08:43:21.212Z] Node Version:  v20.8.0
+[debug] [2023-10-26T08:43:21.212Z] Time:          Thu Oct 26 2023 15:43:21 GMT+0700 (Indochina Time)
+[debug] [2023-10-26T08:43:21.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-26T08:43:21.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-26T08:43:21.231Z] > authorizing via signed-in user (tuandao220@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Angular-Udemy\crud-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-10-26T08:44:37.487Z] ----------------------------------------------------------------------
+[debug] [2023-10-26T08:44:37.494Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-26T08:44:37.495Z] CLI Version:   12.7.0
+[debug] [2023-10-26T08:44:37.496Z] Platform:      win32
+[debug] [2023-10-26T08:44:37.499Z] Node Version:  v20.8.0
+[debug] [2023-10-26T08:44:37.500Z] Time:          Thu Oct 26 2023 15:44:37 GMT+0700 (Indochina Time)
+[debug] [2023-10-26T08:44:37.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-26T08:44:37.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-26T08:44:37.518Z] > authorizing via signed-in user (tuandao220@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Angular-Udemy\crud-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-26T08:44:44.993Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-10-26T08:44:45.832Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-10-26T08:44:45.832Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
