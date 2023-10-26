@@ -1,0 +1,75 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="image">
+        <img
+          src="https://salestack.in/admin/api/uploads/Product//1660628686Qz8l94Ic.png"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <h5>Add Contact</h5>
+        <div class="row">
+          <form [formGroup]="contactform">
+            <div class="form-group mb-1">
+              <label for="exampleInputName">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Firstname"
+                formControlName="firstname"
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="exampleInputName">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Lastname"
+                formControlName="lastname"
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="exampleInputName">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Phonenumber"
+                formControlName="phonenumber"
+              />
+            </div>
+            <div class="form-group mb-1">
+              <label for="exampleInputName">City</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter City Name"
+                formControlName="city"
+              />
+            </div>
+            <div class="text-center mt-2">
+              <button
+                type="submit"
+                (click)="submitcontact(this.contactform.value)"
+                [disabled]="this.contactform.invalid"
+                class="btn btn-primary"
+              >
+                Submit</button
+              >&nbsp;
+              <button
+                type="submit"
+                class="btn btn-success"
+                routerLink="/contactlist"
+              >
+                Back
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
