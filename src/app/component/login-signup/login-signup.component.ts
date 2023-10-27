@@ -42,6 +42,7 @@ export class LoginSignupComponent implements OnInit {
         alert('User sigup Sucessly!!');
         this.signupform.reset();
       });
+    this.isShow = false;
   }
   loginuser() {
     this.http.get<login[]>('http://localhost:3000/signup').subscribe(
